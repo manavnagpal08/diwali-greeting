@@ -35,6 +35,7 @@ function startTriviaQuiz() {
         { question: "What does Diwali celebrate?", answers: ["Light over Darkness", "Winter Solstice", "Harvest Festival"], correct: 0 },
         { question: "Which sweet is popular during Diwali?", answers: ["Chocolate Cake", "Gulab Jamun", "Ice Cream"], correct: 1 },
         { question: "What do people light during Diwali?", answers: ["Candles", "Fireworks", "Both"], correct: 2 },
+        { question: "Who is Manav Nagpal?", answers: ["Yes", "Yup", "FC"], correct: 0 }  // Updated name here
     ];
     let score = 0;
     questions.forEach((q, index) => {
