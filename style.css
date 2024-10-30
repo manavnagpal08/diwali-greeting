@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ff4d4d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    background: #800000;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 2s ease-in;
+}
+.title, .game-title {
+    color: #ffcccb;
+    animation: colorShift 5s infinite;
+}
+.wish {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #ffcccb;
+}
+.button-container {
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #ffcccb;
+    color: #800000;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+.button:hover {
+    transform: scale(1.1);
+}
+#rangoli-canvas {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 20px auto;
+}
+#rangoli-canvas div {
+    width: 45px;
+    height: 45px;
+    background-color: #f3f3f3;
+    border: 2px solid #ffcccb;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes colorShift {
+    0% { color: #ffcccb; }
+    50% { color: #ff9999; }
+    100% { color: #ffcccb; }
+}
