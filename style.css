@@ -5,6 +5,28 @@ body {
     text-align: center;
     padding: 20px;
 }
+.diwali-header {
+    text-align: center;
+    background-color: #ff3333; /* Deep red color for a festive feel */
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.diwali-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.diwali-header p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+}
+
 .container {
     background: #800000;
     border-radius: 10px;
