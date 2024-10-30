@@ -88,3 +88,4 @@ window.addEventListener('load', () => {
     }, 1000);  // Matches the animation duration in CSS
 });
 
+
