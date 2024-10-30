@@ -65,3 +65,16 @@ body {
     50% { color: #ff9999; }
     100% { color: #ffcccb; }
 }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.gallery-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
