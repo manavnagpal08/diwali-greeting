@@ -77,3 +77,14 @@ function startCrackerGame() {
     const bursts = Math.floor(Math.random() * 5) + 1; // Random number of crackers burst
     crackerResult.innerText = `You burst ${bursts} crackers! 🎇🎇🎇`;
 }
+// Trigger cracker blast on page load
+window.addEventListener('load', () => {
+    const cracker = document.getElementById('cracker-blast');
+    cracker.classList.add('blast-active');
+
+    // Remove cracker after animation completes
+    setTimeout(() => {
+        cracker.style.display = 'none';
+    }, 1000);  // Matches the animation duration in CSS
+});
+
