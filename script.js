@@ -17,6 +17,12 @@ function playFirecrackerAnimation() {
         ctx.fill();
     }
 }
+// Function to light the Diya
+function lightDiya(diya) {
+    diya.src = "images/lit-diya.png";  // Change to lit Diya image
+    diya.classList.add("lit");
+}
+
 
 // Rangoli Challenge Game
 const rangoliCanvas = document.getElementById('rangoli-canvas');
