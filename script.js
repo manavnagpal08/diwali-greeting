@@ -19,7 +19,7 @@ function playFirecrackerAnimation() {
 }
 // Function to light the Diya
 function lightDiya(diya) {
-    diya.src = "images/lit-diya.png";  // Change to lit Diya image
+    diya.src = "lit-diya.png";  // Change to lit Diya image
     diya.classList.add("lit");
 }
 
