@@ -5,6 +5,30 @@ body {
     text-align: center;
     padding: 20px;
 }
+/* Diya Camp Section */
+#diya-camp {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.diya-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.diya {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.diya:hover {
+    transform: scale(1.1);  /* Slight zoom effect on hover */
+}
+
 .diwali-header {
     text-align: center;
     background-color: #ff3333; /* Deep red color for a festive feel */
